@@ -102,7 +102,7 @@ for model_name in selected_models:
         name=model_name,
         customdata=list(zip(selected_scores, filtered_datasets)),  # Custom data for hover info
         hovertemplate="<b>Dataset: %{customdata[1]}</b><br>" +
-                      "Accuracy: %{customdata[0]:.2f}<extra></extra>"  # Custom hover text
+                      "Performance train: %{customdata[0]:.2f}<extra></extra>"  # Custom hover text
     ))
 
 # Customize the layout with increased size
